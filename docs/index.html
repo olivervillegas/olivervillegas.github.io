@@ -3,21 +3,23 @@
     Welcome
   </HEAD>
   <BODY>
-    <button id="register">Register</button>
+    <div class="phppot-container">
+      <button id="register">Register</button>
 
-    <script>
-        document.getElementById("register").onclick = function () {
-            location.href = "/docs/user-registration.php";
-        };
-    </script>
+      <script>
+          document.getElementById("register").onclick = function () {
+              location.href = "/user-registration.php";
+          };
+      </script>
 
 
-    <button id="login">Login</button>
+      <button id="login">Login</button>
 
-    <script>
-        document.getElementById("login").onclick = function () {
-            location.href = "/docs/login.php";
-        };
-    </script>
+      <script>
+          document.getElementById("login").onclick = function () {
+              location.href = "/login.php";
+          };
+      </script>
+    </div>
   </BODY>
 </HTML>
