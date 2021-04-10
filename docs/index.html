@@ -4,22 +4,18 @@
   </HEAD>
   <BODY>
     <div class="phppot-container">
-      <button id="register">Register</button>
-
-      <script>
-          document.getElementById("register").onclick = function () {
-              location.href = "user-registration.php";
-          };
-      </script>
-
-
-      <button id="login">Login</button>
-
-      <script>
-          document.getElementById("login").onclick = function () {
-              location.href = "login.php";
-          };
-      </script>
-    </div>
+      <div class="page-content">
+        <div class="row">
+          <a href="user-registration.php">
+            <input class="btn" type="submit" name="signup-btn"
+              id="signup-btn" value="Register">
+          </a>
+          <a href="login.php">
+          <input class="btn" type="submit" name="signup-btn"
+            id="signup-btn" value="LOGIN">
+          </a>
+        </div>
+  		</div>
+  	</div>
   </BODY>
 </HTML>
