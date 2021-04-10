@@ -3,7 +3,21 @@
     Welcome
   </HEAD>
   <BODY>
-    Register<meta http-equiv = "refresh" content = "seconds"; url = "user-registration.php"/>
-    Login<meta http-equiv = "refresh" content = "seconds"; url = "login.php"/>
+    <button id="register">Register</button>
+
+    <script>
+        document.getElementById("register").onclick = function () {
+            location.href = "/docs/user-registration.php";
+        };
+    </script>
+
+
+    <button id="login">Login</button>
+
+    <script>
+        document.getElementById("login").onclick = function () {
+            location.href = "/docs/login.php";
+        };
+    </script>
   </BODY>
 </HTML>

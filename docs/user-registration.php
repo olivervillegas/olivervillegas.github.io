@@ -9,9 +9,9 @@ if (! empty($_POST["signup-btn"])) {
 <HTML>
 <HEAD>
 <TITLE>User Registration</TITLE>
-<link href="assets/css/phppot-style.css" type="text/css"
+<link href="css/phppot-style.css" type="text/css"
 	rel="stylesheet" />
-<link href="assets/css/user-registration.css" type="text/css"
+<link href="css/user-registration.css" type="text/css"
 	rel="stylesheet" />
 <script src="vendor/jquery/jquery-3.5.1.js" type="text/javascript"></script>
 </HEAD>
